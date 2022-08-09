@@ -1,4 +1,5 @@
-# script para plot da rosa dos ventos baseado no passo a passo do site meteopassos
+# script para plot da rosa dos ventos baseado no passo a passo do site meteopassos 
+# http://www.meteopassos.com/como-fazer-uma-rosa-dos-ventos-em-python
 # contem um loop para plot da rosa dos ventos de mais de uma estacao de qualidade do ar do  inea
 # dados organizados utilizando o script sel-dados-rosa-ventos
 
