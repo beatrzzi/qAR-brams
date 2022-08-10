@@ -1,3 +1,5 @@
+# autora: beatriz miranda
+# data: 08/08/2022
 # script para plot da rosa dos ventos baseado no passo a passo do site meteopassos 
 # http://www.meteopassos.com/como-fazer-uma-rosa-dos-ventos-em-python
 # contem um loop para plot da rosa dos ventos de mais de uma estacao de qualidade do ar do  inea
