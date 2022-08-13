@@ -2,6 +2,7 @@
 # data: 13/08/2022
 # forma alternativa ao script rosa-ventos.py para plot de rosa dos ventos
 # subplot de dois meses para estacoes do inea
+# dado para uma estacao disponivel em beatrzzi/qAR-brams/dados/
 
 import matplotlib.pyplot as plt
 import numpy as np
