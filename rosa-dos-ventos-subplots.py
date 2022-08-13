@@ -1,3 +1,8 @@
+# autora: beatriz miranda
+# data: 13/08/2022
+# forma alternativa ao script rosa-ventos.py para plot de rosa dos ventos
+# subplot de dois meses para estacoes do inea
+
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -46,7 +51,7 @@ while e < len(lista_nomes): #para cada estacao
     ax1.set_yticks(np.arange(0, 20, step=4))
     #Inserindo os labels no eixo
     ax1.set_yticklabels(np.arange(0, 16, step=4), fontsize='14')
-    plt.title('August', y=1.08, fontsize='20')
+    plt.title('Agosto', y=1.08, fontsize='20')
 
     #plot 2:
     ax2 = fig.add_subplot(nrows, ncols, 2, projection="windrose")
@@ -59,7 +64,7 @@ while e < len(lista_nomes): #para cada estacao
     ax2.set_yticks(np.arange(0, 20, step=4))
     #Inserindo os labels no eixo
     ax2.set_yticklabels(np.arange(0, 16, step=4), fontsize='14')
-    plt.title('September', y=1.08, fontsize='20')
+    plt.title('Setembro', y=1.08, fontsize='20')
 
     #Salvando a Rosa dos ventos
     plt.savefig('.../'+xstr+'-rosa-ventos.jpg', bbox_inches='tight')
