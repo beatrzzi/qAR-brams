@@ -1,6 +1,4 @@
 import pandas as pd
-import matplotlib.pyplot as plt
-%matplotlib inline
 import numpy as np
 
 arquivo = '.../dado_wind_u_v.csv'
