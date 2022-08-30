@@ -1,6 +1,6 @@
 # autora: beatriz miranda
 # data: 10/08/2022
-# forma simples para calculo do ciclo diurno médio de mais de uma variavel
+# forma simples para calculo do ciclo diurno médio de mais de uma variavel ou estacao
 # dado-exemplo.csv está disponivel no diretorio
 
 # biblioteca necessaria
